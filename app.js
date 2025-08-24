@@ -1,14 +1,14 @@
 const dogs = [
-  { name: "Chihuahua", size: "Liten", activity: "Låg", kids: "Nej", allergy: "Ja", lifestyle: "Ensamboende", description: "En liten, livlig hund som trivs i lägenhet. Kräver inte mycket motion.", img: "https://cdn2.thedogapi.com/images/B1pDZx9Nm.jpg" },
-  { name: "Labrador Retriever", size: "Stor", activity: "Hög", kids: "Ja", allergy: "Nej", lifestyle: "Familj", description: "En glad och aktiv hund som älskar barn och behöver mycket motion.", img: "https://cdn2.thedogapi.com/images/B1uW7l5VX.jpg" },
-  { name: "Fransk Bulldog", size: "Medel", activity: "Låg", kids: "Ja", allergy: "Nej", lifestyle: "Ensamboende", description: "Charmig, lugn och perfekt för stadsmiljö.", img: "https://cdn2.thedogapi.com/images/HyWNfxc47.jpg" },
-  { name: "Border Collie", size: "Medel", activity: "Hög", kids: "Ja", allergy: "Nej", lifestyle: "Familj", description: "Extremt intelligent hund som behöver mycket träning och aktivering.", img: "https://cdn2.thedogapi.com/images/sGQvQUpsp.jpg" },
-  { name: "Pudel (Toy)", size: "Liten", activity: "Medel", kids: "Ja", allergy: "Ja", lifestyle: "Familj", description: "Allergivänlig hund med hög intelligens och vänlig personlighet.", img: "https://cdn2.thedogapi.com/images/By4A-eqE4.jpg" },
-  { name: "Golden Retriever", size: "Stor", activity: "Hög", kids: "Ja", allergy: "Nej", lifestyle: "Familj", description: "En av de mest populära familjehundarna. Snäll, lojal och aktiv.", img: "https://cdn2.thedogapi.com/images/HJ7Pzg5EQ.jpg" },
-  { name: "Mops", size: "Liten", activity: "Låg", kids: "ja", allergy: "Nej", lifestyle: "Ensamboende", description: "En charmig och rolig sällskapshund. Passar bra för små bostäder.", img: "https://cdn2.thedogapi.com/images/HyJvcl9N7.jpg" },
-  { name: "Siberian Husky", size: "Stor", activity: "Hög", kids: "Ja", allergy: "Nej", lifestyle: "Familj", description: "Energisk hund med stark flockkänsla. Kräver mycket motion.", img: "https://cdn2.thedogapi.com/images/S17ZilqNm.jpg" },
-  { name: "Shih Tzu", size: "Liten", activity: "Låg", kids: "Ja", allergy: "Ja", lifestyle: "Familj", description: "Liten, lugn och allergivänlig. Passar bra för både äldre och familjer.", img: "https://cdn2.thedogapi.com/images/B1SV7gqE7.jpg" },
-  { name: "Dobermann", size: "Stor", activity: "Hög", kids: "Nej", allergy: "Nej", lifestyle: "nsamboende", description: "En lojal och beskyddande hund, bäst lämpad för erfarna ägare.", img: "https://cdn2.thedogapi.com/images/HyL3bl94Q.jpg" }
+  { name: "CHIHUAHUA", size: "Liten", activity: "Låg", kids: "Nej", allergy: "Ja", lifestyle: "Ensamboende", description: "En liten, livlig hund som trivs i lägenhet. Kräver inte mycket motion.", img: "https://cdn2.thedogapi.com/images/B1pDZx9Nm.jpg" },
+  { name: "LABRADOR RETRIEVER", size: "Stor", activity: "Hög", kids: "Ja", allergy: "Nej", lifestyle: "Familj", description: "En glad och aktiv hund som älskar barn och behöver mycket motion.", img: "https://cdn2.thedogapi.com/images/B1uW7l5VX.jpg" },
+  { name: "FRANSK BULLDOG", size: "Medel", activity: "Låg", kids: "Ja", allergy: "Nej", lifestyle: "Ensamboende", description: "Charmig, lugn och perfekt för stadsmiljö.", img: "https://cdn2.thedogapi.com/images/HyWNfxc47.jpg" },
+  { name: "BORDER COLLIE", size: "Medel", activity: "Hög", kids: "Ja", allergy: "Nej", lifestyle: "Familj", description: "Extremt intelligent hund som behöver mycket träning och aktivering.", img: "https://cdn2.thedogapi.com/images/sGQvQUpsp.jpg" },
+  { name: "PUDEL (TOY)", size: "Liten", activity: "Medel", kids: "Ja", allergy: "Ja", lifestyle: "Familj", description: "Allergivänlig hund med hög intelligens och vänlig personlighet.", img: "https://cdn2.thedogapi.com/images/rJFJVxc4m.jpg" },
+  { name: "GOLDEN RETRIEVER", size: "Stor", activity: "Hög", kids: "Ja", allergy: "Nej", lifestyle: "Familj", description: "En av de mest populära familjehundarna. Snäll, lojal och aktiv.", img: "https://cdn2.thedogapi.com/images/HJ7Pzg5EQ.jpg" },
+  { name: "MOPS", size: "Liten", activity: "Låg", kids: "Nej", allergy: "Nej", lifestyle: "Ensamboende", description: "En charmig och rolig sällskapshund. Passar bra för små bostäder.", img: "https://cdn2.thedogapi.com/images/HyJvcl9N7.jpg" },
+  { name: "SIBERIAN HUSKY", size: "Stor", activity: "Hög", kids: "Ja", allergy: "Nej", lifestyle: "Familj", description: "Energisk hund med stark flockkänsla. Kräver mycket motion.", img: "https://cdn2.thedogapi.com/images/S17ZilqNm.jpg" },
+  { name: "SHIH TZU", size: "Liten", activity: "Låg", kids: "Ja", allergy: "Ja", lifestyle: "Familj", description: "Liten, lugn och allergivänlig. Passar bra för både äldre och familjer.", img: "https://cdn2.thedogapi.com/images/BkrJjgcV7.jpg" },
+  { name: "DOBERMANN", size: "Stor", activity: "Hög", kids: "Nej", allergy: "Nej", lifestyle: "Ensamboende", description: "En lojal och beskyddande hund, bäst lämpad för erfarna ägare.", img: "https://cdn2.thedogapi.com/images/HyL3bl94Q.jpg" }
 ];
 
 const dogContainer = document.getElementById("dogContainer");
@@ -49,19 +49,27 @@ function renderDogs() {
   }
 
   filteredDogs.forEach(dog => {
+    const isFavorite = favorites.some(fav => fav.name === dog.name);
+
     const card = document.createElement("div");
     card.className = "card";
-    const isFavorite = favorites.some(fav => fav.name === dog.name);
     card.innerHTML = `
       <img src="${dog.img}" alt="${dog.name}">
       <div class="card-content">
         <h3>${dog.name}</h3>
-        <p>${dog.description}</p>
-        <p><strong>Storlek:</strong> ${dog.size}</p>
-        <p><strong>Aktivitetsnivå:</strong> ${dog.activity}</p>
-        <p><strong>Barnvänlig:</strong> ${dog.kids === "ja" ? "Ja" : "Nej"}</p>
-        <p><strong>Allergivänlig:</strong> ${dog.allergy === "ja" ? "Ja" : "Nej"}</p>
-        <p><strong>Passar bäst för:</strong> ${dog.lifestyle}</p>
+
+        <details class="card-details">
+          <summary>Visa info</summary>
+          <div class="card-info">
+            <p>${dog.description}</p>
+            <p><strong>Storlek:</strong> ${dog.size}</p>
+            <p><strong>Aktivitetsnivå:</strong> ${dog.activity}</p>
+            <p><strong>Barnvänlig:</strong> ${dog.kids}</p>
+            <p><strong>Allergivänlig:</strong> ${dog.allergy}</p>
+            <p><strong>Passar bäst för:</strong> ${dog.lifestyle}</p>
+          </div>
+        </details>
+
         <button class="favorite-btn ${isFavorite ? "active" : ""}" onclick="toggleFavorite('${dog.name}')">❤️</button>
       </div>
     `;
